@@ -54,7 +54,7 @@ body {
 }
 
 a {
-  color: #3F4040;
+  color: rgba(255, 255, 255, 0.3);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav.scrolled {
   background: #000 url(../images/broken_noise.png) repeat;
-  top: -82px;
+  top: -40px;  /*82*/
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .fh5co-nav.scrolled {
@@ -1545,7 +1545,7 @@ h1, h2, h3, h4, h5, h6, figure {
   z-index: 2001;
   border-bottom: none !important;
 }
-@media screen and (max-width: 768px) {
+@screen and (max-width: 768px) {
   .fh5co-nav-toggle {
     display: block;
   }
@@ -1749,7 +1749,7 @@ textarea {
 }
 
 .row-pb-md {
-  padding-bottom: 4em !important;
+  padding-bottom: 2em !important;
 }
 
 .row-pb-sm {
@@ -1777,7 +1777,7 @@ textarea {
 
 @media screen and (max-width: 480px) {
   .col-xxs-12 {
-    float: none;
+    float: left;
     width: 100%;
   }
 }
