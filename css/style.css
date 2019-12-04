@@ -25,6 +25,10 @@ body {
     background: #000 url(../images/broken_noise.png) repeat;
   }
 }
+@font-face {
+    font-family: "Impact";
+    src: url("../fonts/impact.ttf")
+}
 
 #page {
   position: relative;
