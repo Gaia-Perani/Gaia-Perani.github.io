@@ -9,6 +9,8 @@
 *
 * 	Template Style 
     #F17032 arancio
+    #e62e00 box
+    #f2f2f2 box bianco
 *
 * ======================================================= */
 body {
@@ -1586,13 +1588,14 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .btn-primary {
-  background: #ea272d;
+  background: #F17032;
   color: #fff;
   border: 2px solid #ea272d;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #ec3e44 !important;
-  border-color: #ec3e44 !important;
+  background: #F17032 !important;
+  border-color: #fff !important;
+  border-width:1px;
 }
 .btn-primary.btn-outline {
   -webkit-border-radius: 0px;
@@ -1604,11 +1607,12 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   font-size: 14px !important;
   letter-spacing: 1px;
-  border: 2px solid #ea272d;
+  border: 2px solid #F17032;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #ea272d;
-  color: #fff;
+  background: #F17032;
+  color: black;
+
 }
 
 .btn-success {
