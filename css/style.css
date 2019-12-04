@@ -107,8 +107,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 480px) {
   .fh5co-nav {
-   
-    display:none;
+    position: absolute;
+
   }
 }
 .fh5co-nav.scrolled {
@@ -120,12 +120,12 @@ h1, h2, h3, h4, h5, h6, figure {
     background: #000 url(../images/broken_noise.png) repeat;
   }
 }
-/*
+
 @media screen and (max-width: 480px) {
   .fh5co-nav.scrolled {
     background: transparent;
   }
-}   */
+}
 .fh5co-nav #fh5co-logo {
   font-size: 28px;
   margin: 0;
@@ -440,7 +440,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-section {
-  padding: 7em 0;
+  padding: 1em 0;
+ 
 }
 @media screen and (max-width: 480px) {
   .fh5co-section {
@@ -714,7 +715,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-content-section,
 #fh5co-contact,
 #fh5co-footer {
-  padding: 7em 0;
+  padding: 1em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
