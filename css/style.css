@@ -107,7 +107,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 480px) {
   .fh5co-nav {
-    position: relative;
+   
+    display:none;
   }
 }
 .fh5co-nav.scrolled {
@@ -119,11 +120,12 @@ h1, h2, h3, h4, h5, h6, figure {
     background: #000 url(../images/broken_noise.png) repeat;
   }
 }
+/*
 @media screen and (max-width: 480px) {
   .fh5co-nav.scrolled {
     background: transparent;
   }
-}
+}   */
 .fh5co-nav #fh5co-logo {
   font-size: 28px;
   margin: 0;
