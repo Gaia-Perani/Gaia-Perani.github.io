@@ -60,13 +60,13 @@ body {
 }
 
 a {
-  color: rgba(255, 255, 255, 0.3);
+  color: #bfc0c0;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #3F4040;
+  color: white;
   outline: none;
   text-decoration: none;
 }
@@ -85,17 +85,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #ea272d;
+  background: #F17032;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #ea272d;
+  background: #F17032;
 }
 
 ::selection {
   color: #fff;
-  background: #ea272d;
+  background: #F17032;
 }
 
 .fh5co-nav {
