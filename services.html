@@ -56,6 +56,30 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+	
+	
+	
+	<script type="text/javascript">
+
+        function hiliteme(therow) {
+	theelem = document.getElementById(therow);
+	theelem.style.backgroundColor = "#F17032";
+	setTimeout(function(){
+          theelem.style.backgroundColor = "transparent";
+      }, 100);
+
+	setTimeout(function(){
+         theelem.style.backgroundColor = "#F17032";
+      }, 300);
+      setTimeout(function(){
+          theelem.style.backgroundColor = "transparent";
+      }, 400);
+      
+
+	<!--alert('Row ' + therow + ' should be red now');-->
+
+}
+</script>
 
 	</head>
 	<body>
@@ -146,7 +170,7 @@
                                                   <table style="text-align:left; margin-left:45px">
                                                     <tr><td>- demolizioni,</td></tr>
                                                     <tr><td>- rilevamenti,</td></tr>
-                                                    <tr><td>- formazione di muri di contenimento a basso impatto ambientale <a href="#terreArmate"> (TERRE ARMATE),</a></td></tr>
+                                                    <tr><td>- formazione di muri di contenimento a basso impatto ambientale <a href="javascript:;" onclick="hiliteme('row1')"> (TERRE ARMATE),</a></td></tr>
                                                     <tr><td>- modellazione di terreni,</td></tr>
                                                     <tr><td>- movimento terra.</td></tr>
 
@@ -160,15 +184,15 @@
 			</div>
 		</div>
 	</div>
-        
-	
+
+
 		<div id="fh5co-started" class="fh5co-section animate-box" style="background-image: url(images/hero_1.jpeg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row animate-box">
-				<div id="terreArmate" class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Terre Armate</h2>
-					<p>Descrizione ... <br> + altre fasce ... </p>
+				<div  class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2 id="row1">Terre Armate</h2>
+					<p id=terreArmate>Descrizione ... <br> + altre fasce ... </p>
 
 				</div>
 			</div>
