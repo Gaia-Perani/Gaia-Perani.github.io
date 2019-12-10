@@ -58,7 +58,7 @@
 	<![endif]-->
 	
 	
-	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript">
 
         function hiliteme(therow) {
@@ -93,9 +93,6 @@
 				<div class="row">
 					<div class="col-xs-12 text-center logo-wrap">
 					<p>   </p>
-				 <!--  	<div id="fh5co-logo"><a href="index.html"><span>.</span>Piacentini Scavi<span>.</span></a></div>
-                                    	 <div id="fh5co-logo"><a href="index.html"> <img src="images/pc.png" width="5%"> </a></div>        -->
-
 					</div>
 					<div class="col-xs-12 text-center menu-1 menu-wrap">
 						<ul>
@@ -103,11 +100,7 @@
 
 							<li class="active" class="has-dropdown">
 								<a href="services.html">Servizi e Attrezzature</a>
-								<!--<ul class="dropdown">
-									<li><a href="#">Events</a></li>
-									<li><a href="#">Food</a></li>
-									<li><a href="#">Coffees</a></li>
-								</ul>           -->
+
 							</li>
 
 							<li><a href="contact.html">Contatti</a></li>
@@ -127,8 +120,6 @@
 					<div class="display-t js-fullheight">
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn" style="padding-right:60px">
 						<img src="images/logo_piacentini_barraXsito.png" width="80%" style="padding-top:80px">
-						
-
 						</div>
 					</div>
 				</div>
@@ -139,12 +130,6 @@
 	<div id="fh5co-about" class="fh5co-section">
 		<div class="container">
 			<div class="row" style="padding-top:45px;">
-
-			
-                                  <!--
-				<div class="col-md-6 col-md-pull-4 img-wrap animate-box" data-animate-effect="fadeInLeft" style="right:0%;width:38%;float:left">
-					<img src="images/a.jpg" width="120%">
-				</div> -->
 				<div class="col-md-5 col-md-push-1 animate-box" style="text-align:left;font-size:18px;width:83%;" >
 					<div class="section-heading">
 						<h2>Le nostre Attrezzature</h2>
@@ -162,36 +147,48 @@
 
 
                                                  <table  style="text-align:left;  margin-left:45px">
-                                                    <tr><td>- escavatori con marmitta ad acqua per lavorazioni in ambienti chiusi <br>garantendo bassisime emissioni di gas di scarico.</td></tr>
+                                                    <tr><td>- escavatori con <a href="#block" onclick="hiliteme('row1')">marmitta ad acqua </a> per lavorazioni in ambienti chiusi <br>garantendo bassisime emissioni di gas di scarico.</td></tr>
                                                     </table>
                                                  <br>
                                                 <h2> I nostri servizi </h2>
                                                  La nostra azienda offre servizi di differenti tipologie, oltre agli scavi, come:
-                                                  <table style="text-align:left; margin-left:45px">
+                                                  <table  id="block" style="text-align:left; margin-left:45px">
                                                     <tr><td>- demolizioni,</td></tr>
                                                     <tr><td>- rilevati,</td></tr>
-                                                    <tr><td>- formazione di muri di contenimento a basso impatto ambientale <a href="javascript:;" onclick="hiliteme('row1')"> (TERRE ARMATE),</a></td></tr>
+                                                    <tr><td>- formazione di muri di contenimento a basso impatto ambientale <a href="javascript:;" onclick="hiliteme('row2')"> (TERRE ARMATE),</a></td></tr>
                                                     <tr><td>- modellazione di terreni,</td></tr>
                                                     <tr><td>- movimento terra.</td></tr>
 
                                                     </table>
-
-
-
-					<!--	<p><a href="#" class="btn btn-primary btn-outline">I nostri Servizi</a></p>-->
 					</div>
 				</div>  
 			</div>
 		</div>
 	</div>
 
+	<!-- Marmitta ad acqua-->
+        <div id="fh5co-started" class="fh5co-section animate-box" style="background-image: url(images/hero_1.jpeg);margin-bottom:25px;" data-stellar-background-ratio="0.5">
+		<div  class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div  class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2 id="row1">Marmitta ad acqua </h2>
+					<p id=terreArmate>Descrizione ... <br> + altre fasce ... </p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+               <!-- Terre armate -->
 
 		<div id="fh5co-started" class="fh5co-section animate-box" style="background-image: url(images/hero_1.jpeg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row animate-box">
 				<div  class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2 id="row1">Terre Armate</h2>
+					<h2 id="row2">Terre Armate</h2>
 					<p id=terreArmate>Descrizione ... <br> + altre fasce ... </p>
 
 				</div>
@@ -220,9 +217,6 @@
 					<li><a href = "mailto:info@piacentiniscavi.it" style="text-decoration:none"> info@piacentiniscavi.it</a> </li>
 					</p>
                                         <p><a href="#" class="btn btn-primary btn-outline">Contatti</a></p>
-                                        
-
-
                                         <p style="font-size:15px">Partita Iva: 01541220206 <br>Codice Fiscale: PCNCLD59A13B817Z</p>
 				</div>
 			</div>
@@ -240,14 +234,6 @@
 						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
 						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a>
 					</p>
-				<!--	<p>
-						<ul class="fh5co-social-icons">
-							<li><a href="#"><i class="icon-twitter2"></i></a></li>
-							<li><a href="#"><i class="icon-facebook2"></i></a></li>
-							<li><a href="#"><i class="icon-linkedin2"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble2"></i></a></li>
-						</ul>
-					</p>  -->
 				</div>
 			</div>
 
